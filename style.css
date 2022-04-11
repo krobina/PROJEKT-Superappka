@@ -31,3 +31,44 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+ .seznam {
+	 display: flex;
+	 justify-content: center;
+ }
+
+ul {
+	margin: 0;
+}
+
+ .volba {
+	 padding: 10px 15px;
+	 
+ }
+
+ a {
+	 color: #25133d;
+	 text-decoration: none;
+ }
+
+ a:hover {
+	 color: white;
+ }
+
+ li {
+	 list-style: none;
+ }
+
+ .banner {
+	 background-color: #48418e;
+	 background-image: url(images/pozadi.jpg);
+ }
+
+ .volba:hover {
+	 background-color: #48418e;
+	 color: white;
+ }
+
+ h1 {
+	 margin: 0;
+ }
