@@ -38,7 +38,7 @@ img {
 
  .seznam {
 	 display: flex;
-	 justify-content: space-around;
+	 justify-content: center;
 	 font-size: 14px;
 	 flex-wrap: wrap;
  }
@@ -69,11 +69,6 @@ ul {
 	 list-style: none;
  }
 
- .banner {
-	 background-color: #48418e;
-	 background-image: url(images/pozadi.jpg);
- }
-
  .volba:hover {
 	 background-color: #48418e;
 	 color: white;
@@ -81,4 +76,55 @@ ul {
 
  h1 {
 	 margin: 0;
+	 font-size: 50px;
+	 font-weight: 400;
+ }
+
+ .banner {
+	 background-color: #48418e;
+	 background-image: url(images/pozadi.jpg);
+	 background-size: cover;
+	 color: white;
+	 display: flex;
+ }
+
+ .bantext {
+	 flex: 1 1 60%;
+	 padding: 20px;
+ }
+
+ .banruka {
+	 flex: 1 1 40%;
+	 display: flex;
+ }
+
+ .telefon {
+	 width: 100%;
+	 margin: 20px 0 0 0;
+	 align-items: baseline;
+ }
+
+ .podnadpis {
+	 font-size: 20px;
+	 font-weight: 300;
+ }
+
+ .tlacitka {
+	 display: flex;
+	 font-size: 16px;
+ }
+
+ .tlacitko {
+	 padding: 10px;
+	 outline: 1px solid white;
+	 margin-right: 10px;
+	 border-radius: 5px;
+ }
+
+ .tlacitko:hover {
+	 background-color: #48418e;
+ }
+
+ .tlacitka a {
+	 color: white;
  }
