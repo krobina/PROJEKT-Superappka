@@ -32,19 +32,29 @@ body {
 
 /* ----- zde začni psát vlastní CSS ----- */
 
+img {
+	width: 50px;
+}
+
  .seznam {
 	 display: flex;
-	 justify-content: center;
+	 justify-content: space-around;
+	 font-size: 14px;
+	 flex-wrap: wrap;
  }
 
 ul {
 	margin: 0;
+	padding: 0;
 }
 
  .volba {
-	 padding: 10px 15px;
-	 
+	 padding: 15px;
  }
+
+.hlavni {
+	font-weight: 700;
+}
 
  a {
 	 color: #25133d;
