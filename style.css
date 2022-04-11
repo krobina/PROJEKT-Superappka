@@ -53,7 +53,7 @@ ul {
  }
 
 .hlavni {
-	font-weight: 700;
+	display: none;
 }
 
  a {
